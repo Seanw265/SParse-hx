@@ -14,19 +14,13 @@ ALSO, I'm sure there's a ton of bugs. So uh beware of that, it hasn't been fully
 
 I won't be held responsible for any intended/unintended consequences of your use of this API.
 
-# Dependencies
+## Dependencies
 Currently one:
 -https://github.com/yupswing/akifox-asynchttp
 
-# Example
-<pre><code>
-var parse = new SParse("YOUR-APP-ID","YOUR-API-KEY");
-
-parse.login("username","password",myCallback);
-
-parse.saveObject("ClassName",{highscore:222,playerName:"Sean"},myCallback);
-</code></pre>
-
-
-
-
+## Example
+	var parse = new SParse("YOUR-APP-ID","YOUR-API-KEY");
+	
+	parse.login("username","password",myCallback);
+	
+	parse.saveObject("ClassName",{highscore:222,playerName:"Sean"},myCallback);
