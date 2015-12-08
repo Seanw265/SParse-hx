@@ -17,7 +17,7 @@ I won't be held responsible for any intended/unintended consequences of your use
 
 A quick example:
 
-<code>
+<pre><code>
 
 var parse = new SParse("YOUR-APP-ID","YOUR-API-KEY");
 
@@ -25,7 +25,7 @@ parse.login("username","password",myCallback);
 
 parse.saveObject("ClassName",{highscore:222,playerName:"Sean"},myCallback);
 
-</code>
+</code></pre>
 
 
 
