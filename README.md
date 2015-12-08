@@ -18,26 +18,14 @@ I won't be held responsible for any intended/unintended consequences of your use
 Currently one:
 -https://github.com/yupswing/akifox-asynchttp
 
-<<<<<<< HEAD
 # Example
-<code>
-=======
-A quick example:
-
 <pre><code>
-
->>>>>>> origin/master
 var parse = new SParse("YOUR-APP-ID","YOUR-API-KEY");
 
 parse.login("username","password",myCallback);
 
 parse.saveObject("ClassName",{highscore:222,playerName:"Sean"},myCallback);
-<<<<<<< HEAD
-</code>
-=======
-
 </code></pre>
->>>>>>> origin/master
 
 
 
