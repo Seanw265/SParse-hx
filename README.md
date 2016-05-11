@@ -1,4 +1,7 @@
 # SParse-hx
+
+NOTE: Parse has announced they are discontinuing their services. The Parse server is now available for download and this code should work with that. 
+
 SParse uses Parse's REST API to communicate with Parse's servers.
 
 I named it SParse because:
